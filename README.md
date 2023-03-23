@@ -1,6 +1,6 @@
-# docker-screeps-toolbox
+# podman-screeps-toolbox
 
-docker screeps 服务器部署工具包，用于简化 screeps 游戏服务部署流程，并针对国内网络进行了优化。需要提前安装 docker 以及 docker-compose（*如果打算使用 mongo 的话*）。
+podman screeps 服务器部署工具包，用于简化 screeps 游戏服务部署流程，并针对国内网络进行了优化。需要提前安装 podman 以及 podman-compose（*如果打算使用 mongo 的话*）。
 
 # 脚本
 

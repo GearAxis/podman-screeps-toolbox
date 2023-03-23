@@ -6,4 +6,4 @@ IMAGE_NAME="hopgoldy-screeps-server"
 mkdir screeps-server
 cd screeps-server
 
-docker run -it --rm -v $PWD:/screeps ${IMAGE_NAME} init
+podman run -it --rm -v $PWD:/screeps ${IMAGE_NAME} init

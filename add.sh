@@ -9,7 +9,7 @@ then
   echo "安装失败，请指定要安装的 mod"
 else
   echo "正在安装 $1"
-  docker run -it --rm \
+  podman run -it --rm \
     -v $PWD:/screeps \
     ${IMAGE_NAME} \
     sh -c "

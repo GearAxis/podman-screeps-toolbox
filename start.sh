@@ -4,7 +4,7 @@
 IMAGE_NAME="hopgoldy-screeps-server"
 cd screeps-server
 
-docker run -d \
+podman run -d \
   --name screeps-server \
   -v $PWD:/screeps \
   -p 21025:21025 \

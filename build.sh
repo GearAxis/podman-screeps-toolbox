@@ -3,4 +3,4 @@
 
 IMAGE_NAME="hopgoldy-screeps-server"
 
-docker build -t ${IMAGE_NAME} .
+podman build -t ${IMAGE_NAME} .

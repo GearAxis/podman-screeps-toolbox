@@ -3,5 +3,5 @@
 
 CONATINER_NAME="screeps-server"
 
-docker container stop ${CONATINER_NAME} && \
-docker container rm ${CONATINER_NAME}
+podman container stop ${CONATINER_NAME} && \
+podman container rm ${CONATINER_NAME}

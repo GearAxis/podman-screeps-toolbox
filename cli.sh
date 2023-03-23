@@ -3,4 +3,4 @@
 
 CONTAINER_NAME="screeps-server"
 
-docker exec -it ${CONTAINER_NAME} npx screeps cli
+podman exec -it ${CONTAINER_NAME} npx screeps cli

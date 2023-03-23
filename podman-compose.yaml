@@ -32,8 +32,8 @@ services:
       - 27017
 
 networks:
-  screeps-net:
+  screeps-net: {}
 
 volumes:
-  screeps-redis-db:
-  screeps-mongo-db:
+  screeps-redis-db: {}
+  screeps-mongo-db: {}
